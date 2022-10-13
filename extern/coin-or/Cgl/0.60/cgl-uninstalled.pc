@@ -1,0 +1,10 @@
+prefix=/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/dist
+libdir=/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/Cgl/0.60/src
+
+Name: CGL
+Description: COIN-OR Cut Generation Library
+URL: https://projects.coin-or.org/Cgl
+Version: 0.60
+Libs: ${libdir}/libCgl.la 
+Cflags: -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglAllDifferent -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglClique -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglDuplicateRow -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglFlowCover -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglGMI -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglGomory -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglKnapsackCover -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglLandP -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglLiftAndProject -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglMixedIntegerRounding -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglMixedIntegerRounding2 -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglOddHole -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglPreProcess -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglProbing -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglRedSplit -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglRedSplit2 -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglResidualCapacity -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglSimpleRounding -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglTwomir -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/src/CglZeroHalf -I/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/Cgl/0.60/src
+Requires: osi-clp osi coinutils 

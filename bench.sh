@@ -1,0 +1,1 @@
+cargo bench -- 3 1800 ./instances/

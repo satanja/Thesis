@@ -1,0 +1,1 @@
+/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cgl/Cgl/test/CglTestData/egout.mps

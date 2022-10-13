@@ -1,0 +1,1 @@
+/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cbc/Cbc/examples/quad2.mps

@@ -1,0 +1,10 @@
+prefix=/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/dist
+libdir=/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/Cbc/2.10.7/src/OsiCbc
+
+Name: OsiCbc
+Description: COIN-OR Open Solver Interface for CBC
+URL: https://projects.coin-or.org/Osi
+Version: 2.10.7
+Libs: ${libdir}/libOsiCbc.la
+Cflags: -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cbc/Cbc/src/OsiCbc
+Requires: cbc

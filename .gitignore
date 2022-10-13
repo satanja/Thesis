@@ -1,0 +1,8 @@
+/target
+/.vscode
+/.idea
+/instances
+/solutions
+/unsolved
+verifier
+/optil_target

@@ -1,0 +1,10 @@
+prefix=/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/dist
+libdir=/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/CoinUtils/2.11/src
+
+Name: CoinUtils
+Description: COIN-OR Utilities
+URL: https://projects.coin-or.org/CoinUtils
+Version: 2.11
+Libs: ${libdir}/libCoinUtils.la -lbz2 -lz -llapack -lblas -lm 
+Cflags: -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/CoinUtils/CoinUtils/src -I/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/CoinUtils/2.11/src
+Requires: 

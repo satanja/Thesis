@@ -1,0 +1,8 @@
+datadir=/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/Data/miplib3/1.2
+
+Name: Miplib3
+Description: MIPLIB3 models
+URL: https://projects.coin-or.org/svn/Data/miplib3
+Version: 1.2
+Libs:
+Cflags:

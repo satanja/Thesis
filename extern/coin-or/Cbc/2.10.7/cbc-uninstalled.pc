@@ -1,0 +1,10 @@
+prefix=/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/dist
+libdir=/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/Cbc/2.10.7/src
+
+Name: CBC
+Description: COIN-OR Branch and Cut
+URL: https://projects.coin-or.org/Cbc
+Version: 2.10.7
+Libs: ${libdir}/libCbcSolver.la ${libdir}/libCbc.la 
+Cflags: -I/home/stefan/Documents/GitHub/DFVStritus/extern/coinbrew/Cbc/Cbc/src -I/home/stefan/Documents/GitHub/DFVStritus/extern/cbc/Cbc/2.10.7/src
+Requires: clp osi-clp cgl osi coinutils 
